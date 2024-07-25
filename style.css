@@ -1,0 +1,52 @@
+/* Use Google Fonts: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F2FAFA;/* Black Squeeze color */
+  color: #233454;/* Cloud Burst color */
+  line-height: 1.6;
+}
+
+header {
+  padding: 50px;
+  text-align: center;
+  background-color: #233454;/* Cloud Burst color */
+  color: #F2FAFA;/* Black Squeeze color */
+}
+
+.main {
+  padding: 20px;
+}
+
+.project {
+  margin: 20px 0;
+  border: 2px solid #527A9A;/* Wedgewood color */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project-title {
+  color: #D4494C;/* Mahogany color */
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #7CA4CC;/* Dark Pastel Blue color */
+  color: #F2FAFA;/* Black Squeeze color */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #B2D9DB;/* Scandal color */
+}
